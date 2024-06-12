@@ -6,10 +6,7 @@
  */
 ?>
 
-<footer>Đây là footer</footer>
-
+<footer>Đây là footer gồm có 3 cột</footer>
 </body>
-
-<?php wp_footer(); ?>
 
 </html>

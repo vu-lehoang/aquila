@@ -7,9 +7,9 @@ Description: Blog theme
 Tags: blog, theme
 Version: 1.0
 */
-
-img.custom-logo{
-	max-width: 80px; 
-	height: 100%;
-	object-fit: cover;
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(180deg, #eee, #22ba48, #013114);
 }

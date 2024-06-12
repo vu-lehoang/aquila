@@ -1,1 +1,1 @@
-# aquila
+# WordPress Theme - Aquila
