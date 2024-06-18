@@ -7,9 +7,19 @@ Description: Blog theme
 Tags: blog, theme
 Version: 1.0
 */
-
-img.custom-logo{
-	max-width: 80px; 
-	height: 100%;
-	object-fit: cover;
+img {
+  width: 100%;
+  height: auto;
+}
+img.custom-logo {
+  max-width: 80px;
+  height: 100%;
+  object-fit: cover;
+}
+time.update {
+  display: none;
+}
+/* Nav item */
+.nav-item:hover .dropdown-menu:not(.show) {
+  display: block;
 }

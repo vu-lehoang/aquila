@@ -1,0 +1,1 @@
+<h1>Đây là trang trả về kết quả tìm kiếm</h1>

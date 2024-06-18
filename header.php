@@ -22,18 +22,11 @@
         wp_body_open();
     }
     ?>
-    <div class="site" id="page">
+    <div class="site mb-5" id="page">
         <header class="site-header" id="masthead" role="banner">
             <?php get_template_part('template-parts/header/nav');
-            if (is_page()) {
-                get_template_part('template-parts/content', 'page');
-            } else {
-                get_template_part('template-parts/content', 'post');
-            }
+
             ?>
 
         </header>
         <div class="site-content" id="content">
-            This is content
-        </div>
-    </div>

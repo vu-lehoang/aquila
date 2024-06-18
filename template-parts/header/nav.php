@@ -13,8 +13,6 @@ $header_menu_id = $menu_class->get_menu_id('aquila-header-menu');
 // Lấy tất cả các mục  trong menu với id vừa lấy được
 $header_menus = wp_get_nav_menu_items($header_menu_id);
 
-
-
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <?php if (function_exists('the_custom_logo')) {

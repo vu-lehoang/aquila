@@ -21,6 +21,7 @@ class AQUILA_THEME
         // load file class-assets.php
         ASSETS::get_instance();
         MENUS::get_instance();
+        Meta_Boxes::get_instance();
         //load class
         $this->set_hooks();
     }
@@ -85,6 +86,10 @@ class AQUILA_THEME
 
         // hỗ trợ căn chỉnh mở rộng cho các khối trong trình soạn thảo Gutenberg
         add_theme_support('align-wide');
+
+        // Register image sizes
+
+        add_image_size('featured-thumbnail', 350, 233, true);
 
         global $content_width;
         if (!isset($content_width)) {
